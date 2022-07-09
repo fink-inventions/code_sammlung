@@ -5,24 +5,23 @@ let Stift2 = "blau";
 let Stift3 = "gruen";
 let Stift4 = "gelb";
 
-let Loch = false;
-//let Loch2 = false;
+let Loch1 = false;
+let Loch2 = true;
 //let Loch3 = false;
 //let Loch4 = false;
 
-function richtigeFarbe(Loch){
-   
-        if ( Stift1 === "rot"){
-           Loch = true;
+function isEqual(){
+        if(Stift1!== "rot"){
+                Loch1 = false;
+                
         }
-    
-
+        
 }
-richtigeFarbe();
+isEqual();
 
-
-console.log(Loch);
+console.log(Loch1);
 console.log(Stift1);
 console.log(Stift2);
 console.log(Stift3);
 console.log(Stift4);
+console.log(Loch2);
