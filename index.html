@@ -1,38 +1,28 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hört es je auf?</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/app.js"></script>
-  
 </head>
 <body>
+    <div class="header">
+    <h1>Mastermind</h1>
+    <h2>Das Spiel beginnt</h2>
+    <h3>Waehle die Farbe fuer den</h3> <h3 class="anzahlVersuche" id="zaehler">"0"</h3> <h3>  Steckplatz.</h3>
     
-    <div class="spielfeld">
-        <div class="umrandung">
-            <div class="anzeige">
-                <h2>Mach dein Spiel!</h2>
-                <p>Waehle die Farbe</p>
-                <button id="spielbutton1" onclick="rotHoch()">Auswaehlen</button>
-                <button id="spielbutton2" onclick="giessen()">Auswaehlen</button>
-                <button id="spielbutton3" onclick="giessen()">Auswaehlen</button>
-                <button id="spielbutton4" onclick="giessen()">Auswaehlen</button>
-                
-                <div class="spielbehaelter">
-               
-                    
-                    <p id="treffer" class="behaeltertext">0</p>
-                    <p class="behaeltertext">Treffer bisher</p></div>
-                    <div class="spielbehaelter">
-                    <p id="versuche" class="behaeltertext">12</p>
-                    <p class="behaeltertext">Versuche hast Du noch</p>
-                </div>
-              
-            </div>
-        </div>
-    </div>
-    
+</div>
+
+    <div class="container">
+        <select class="auswahlliste" size="4">
+        <option class="rot" onclick="rot(),checkTipp()">ROT</option>
+        <option class="blau"onclick="blau(),checkTipp()">BLAU</option>
+        <option class="gruen"onclick="gruen(),checkTipp()">GRUEN</option>
+        <option class="gelb"onclick="gelb(),checkTipp()">GELB</option>
+      </select></div>
+      <script src="/js/auswahl.js"></script>
+      
 </body>
 </html>

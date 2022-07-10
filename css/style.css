@@ -1,25 +1,42 @@
 body {
-    background-color: aqua;
-    margin: 30px;
-}
-.spielfeld {
-    margin: 10px;
-    border-style: solid;
-    padding: 10%;
-    border-width: 4px;
-    color: aliceblue;
-    background-color: blue;
+    margin: 50px;
 }
 
-#spielbutton1{
-    background-color: red;
+.header {
+    background-color: aqua;
 }
-#spielbutton2{
-    background-color: blue;
+.auswahlmenu{
+    background-color: aqua;
+    display: flex;
+    width: 200px;
+    height: 200px;
 }
-#spielbutton3{
-    background-color: green;
+.auswahlliste{
+    display: inline;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+   
+
 }
-#spielbutton4{
-    background-color: yellow;
+.container {
+    display: block;
+    background-color: antiquewhite;
+}
+
+.rot {
+    height: 25%;
+background-color: red;
+}
+.blau {
+    height: 25%;
+background-color: blue;
+}
+.gruen {
+    height: 25%;
+background-color: green;
+}
+.gelb {
+    height: 25%;
+background-color: yellow;
 }
