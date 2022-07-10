@@ -1,27 +1,23 @@
-console.log ("Hello World");
+//var Treffer = 0;
+//var richtigeFarbe = 0;
+//Farbe1="rot";
 
-let Stift1 = "rot";
-let Stift2 = "blau";
-let Stift3 = "gruen";
-let Stift4 = "gelb";
 
-let Loch1 = false;
-let Loch2 = true;
-//let Loch3 = false;
-//let Loch4 = false;
 
-function isEqual(){
-        if(Stift1!== "rot"){
-                Loch1 = false;
-                
-        }
+//console.log(Treffer);
+//console.log(richtigeFarbe);
+
+//function auswerten(){
+       // if(Farbe1=="rot"){
+                //Treffer = true;
+             //   richtigeFarbe=richtigeFarbe+1
+              //  document.getElementById("richtigeFarbe").innerHTML=Treffer;
+     //   }
         
-}
-isEqual();
+               
+    //    }
+//auswerten();
 
-console.log(Loch1);
-console.log(Stift1);
-console.log(Stift2);
-console.log(Stift3);
-console.log(Stift4);
-console.log(Loch2);
+
+//console.log(Treffer);
+//console.log(richtigeFarbe);

@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Hört es je auf?</title>
+    <link rel="stylesheet" href="style.css">
     <script src="/js/app.js"></script>
 </head>
 <body>
- 
-        <h1>Das wird eine Seite fuer MASTERMIND</h1>
-        <h2>Aber nicht mehr heute</h2>
-    
-      <div class="container">
-            <ul>
-                <il>item1</il>
-                <il>item2</il>
-                <il>item3</il>
-                <il>item4</il>
-                
-            </ul>
+    <div class="spielfeld">
+        <div class="umrandung">
+            <div class="anzeige">
+                <h2>Mach dein Spiel!</h2>
+                <div class="bildbehaelter">
+                    <img id="spielstandbild" src="/img/pins-154959_1280.png" alt="Ein Bild vom Spielstand">
+                </div>
+                <div class="spielbehaelter">
+                    
+                    <p id="treffer" class="behaeltertext">0</p>
+                </div>
+                <button id="spielbutton" onclick="giessen()">Neuer Versuch</button>
+            </div>
         </div>
-
-        <ul class="colours" id="farbenID">
-            <li>Farbe1</li>
-            <li>Farbe2</li>
-            <li>Farbe3</li>
-            <li>Farbe4</li>
-           
-        </ul>
-    
-    
+    </div>
 </body>
 </html>
