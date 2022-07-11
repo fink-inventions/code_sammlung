@@ -8,21 +8,25 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="header">
-    <h1>Mastermind</h1>
-    <h2>Das Spiel beginnt</h2>
-    <h3>Waehle die Farbe fuer den</h3> <h3 class="anzahlVersuche" id="zaehler">"0"</h3> <h3>  Steckplatz.</h3>
-    
-</div>
+   <h2>Klicke die Buttons, um die Reihenfolge der Farben festzulegen.</h2>
+   <div class="auswahlfeld">
+   <button class="Tippfeld1"  onclick="check(),PlaceOnList(),PushToListRed()">rot</button><button class="Tippfeld2"  onclick="check(),PlaceOnList(),PushToListBlue()">blau</button><button class="Tippfeld3"  onclick="check(),PlaceOnList(),PushToListGreen()">gruen</button><button class="Tippfeld4"  onclick="check(),PlaceOnList(),PushToListYellow()">gelb</button>
+   </div>
+   <div class="ausgabeTipps">
+ <div>
+    <p type="text" name="Ergebnisliste" id="ausgabeTipps">" "</p>
+    <input type="text" id="ausgabeTipps" >""
+ </div>
+   </div>
 
-    <div class="container">
-        <select class="auswahlliste" size="4">
-        <option class="rot" onclick="rot(),checkTipp()">ROT</option>
-        <option class="blau"onclick="blau(),checkTipp()">BLAU</option>
-        <option class="gruen"onclick="gruen(),checkTipp()">GRUEN</option>
-        <option class="gelb"onclick="gelb(),checkTipp()">GELB</option>
-      </select></div>
+   
+       
       <script src="/js/auswahl.js"></script>
+      <script src="/js/funktionstest.js"></script>
+<br>
+     
+    </body>
+
       
-</body>
+
 </html>

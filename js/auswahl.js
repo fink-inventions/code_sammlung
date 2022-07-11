@@ -1,8 +1,10 @@
-var pos1 = "1";
+var pos1 = "1"; 
 var pos2 = "2";
 var pos3 = "3";
 var pos4 = "4";
 var zaehler = "0";
+
+
 
 console.log(zaehler);
 function checkTipp(){
@@ -62,4 +64,3 @@ function gelb() {
   }
 }
 
-//gelb();

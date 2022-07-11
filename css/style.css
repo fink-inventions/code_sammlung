@@ -1,42 +1,55 @@
 body {
-    margin: 50px;
+  margin: 5px;
 }
 
 .header {
-    background-color: aqua;
+  background-color: aqua;
 }
-.auswahlmenu{
-    background-color: aqua;
-    display: flex;
-    width: 200px;
-    height: 200px;
-}
-.auswahlliste{
-    display: inline;
-    width: 90%;
-    height: 200px;
-    text-align: center;
-   
+.auswahlmenu {
+  background-color: aqua;
 
+  width: 200px;
+  height: 200px;
 }
-.container {
-    display: block;
-    background-color: antiquewhite;
+.auswahlfeld {
+  display: inline;
+  width: 90%;
+  height: 200px;
+  text-align: center;
 }
 
-.rot {
-    height: 25%;
-background-color: red;
+.spielfeld {
+  width: 90%;
+  height: 200px;
+  background-color: brown;
 }
-.blau {
-    height: 25%;
-background-color: blue;
+
+.fieldPins {
+  display: inline;
+  width: 25%;
 }
-.gruen {
-    height: 25%;
-background-color: green;
+.position {
+  width: 25%;
+  height: 24%;
 }
-.gelb {
-    height: 25%;
-background-color: yellow;
+
+.Tippfeld1 {
+  display: inline-block;
+  width: 25%;
+  background-color: red;
+}
+.Tippfeld2 {
+  display: inline-;
+  width: 25%;
+  background-color: blue;
+}
+.Tippfeld3 {
+  display: inline-;
+  width: 25%;
+  background-color: green;
+}
+.Tippfeld4 {
+  display: inline-;
+  width: 25%;
+  background-color: yellow;
 }
