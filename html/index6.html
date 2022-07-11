@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+   <h2>Klicke die Buttons, um die Reihenfolge der Farben festzulegen.</h2>
+   <div class="auswahlfeld">
+   <button class="Tippfeld1"  onclick="check(),PlaceOnList(),PushToListRed()">rot</button><button class="Tippfeld2"  onclick="check(),PlaceOnList(),PushToListBlue()">blau</button><button class="Tippfeld3"  onclick="check(),PlaceOnList(),PushToListGreen()">gruen</button><button class="Tippfeld4"  onclick="check(),PlaceOnList(),PushToListYellow()">gelb</button>
+   </div>
+   <div class="ausgabeTipps">
+ <div>
+    <p type="text" name="Ergebnisliste" id="ausgabeTipps">" "</p>
+    <input type="text" id="ausgabeTipps" >""
+ </div>
+   </div>
+
+   
+       
+      <script src="/js/auswahl.js"></script>
+      <script src="/js/funktionstest.js"></script>
+<br>
+     
+    </body>
+
+      
+
+</html>
